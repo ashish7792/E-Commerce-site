@@ -1,0 +1,136 @@
+/* app css stylesheet */
+
+/*Cascading Stylesheet */
+h1
+{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: chocolate;
+  font-style:italic;
+}
+
+.logoImg
+{
+
+  position: absolute;
+  top: -3px;
+  left: 455px;
+  width: 117px;
+
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 2px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+ul
+{
+
+  list-style-type: none;
+
+}
+.menu-foot
+{
+  background-color: #F8F8F8;
+  color: black;
+  height: 85px;
+}
+
+.modal-dialog {width:500px;}
+.thumbnail {margin-bottom:6px;}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+  vertical-align: middle;
+}
+@media screen and (max-width:600px) {
+  table#cart tbody td .form-control{
+    width:30%;
+    display: inline !important;
+  }
+  .actions .btn{
+    width:36%;
+    margin:1.5em 0;
+  }
+
+  .actions .btn-info{
+    float:left;
+  }
+  .actions .btn-danger{
+    float:right;
+  }
+
+  table#cart thead { display: none; }
+  table#cart tbody td { display: block; padding: .4rem; min-width:320px;}
+  table#cart tbody tr td:first-child { background: #333; color: #fff; }
+  table#cart tbody td:before {
+    content: attr(data-th); font-weight: bold;
+    display: inline-block; width: 4rem;
+  }
+
+  table#cart tfoot td{display:block; }
+  table#cart tfoot td .btn{display:block;}
+
+}
+.table
+{
+  width: 72% !Important;
+  max-width: 130% !Important;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 0px !Important;
+  }
+}
+
+
+@media (min-width: 992px){
+  .container {
+    width: 970px !Important;
+  }
+
+  .modal-header, h4, .close {
+    background-color: rgb(73, 51, 183);
+    color: #9B9797 !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-content {
+    position: relative;
+    background-color: rgba(17, 47, 49, 0.34)!Important;
+  }
+
+  body
+  {
+
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+
+
