@@ -7,15 +7,15 @@ angular.module('furnitureWaleApp', ['ngRoute', 'furnitureWaleApp.landing'])
         $routeProvider
         .when('/landing', {
           templateUrl: 'landing-page/landing.html',
-          controller: 'LandingCtrl'
+          controller: 'landingCtrl'
         })
         .when('/beds', {
             templateUrl: 'product-variation/product-variation.html',
-            controller: 'LandingCtrl'
+            controller: 'landingCtrl'
         })
         .when('/detailView', {
             templateUrl: 'product-details/product-details.html',
-            controller: 'LandingCtrl'
+            controller: 'landingCtrl'
         })
 
         .otherwise({redirectTo: '/landing'});

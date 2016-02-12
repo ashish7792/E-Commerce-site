@@ -52,55 +52,15 @@
         </a>
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center" ng-controller="landingCtrl as ctrl">
         <h3> What we do</h3> </br>
-        <div class="row">
-            <div class="col-sm-4 bedMove">
-                <a href ="#/beds"><img src="assets/Images/beds/bed_0.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-                <p>Current Project</p>
-            </div>
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/revolvingtower.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
-            </div>
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/homeset_1.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
+        <div class="row" ng-repeat="row in ctrl.categoryList">
+            <div class="col-sm-4 bedMove" ng-repeat="rowItem in row">
+                <a href ="#/beds"><img ng-src="assets/Images/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image"></a>
+                <p>{{rowItem.name}}</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/homeset_4.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Current Project</p>
-            </div>
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/sofa_2.gif" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
-            </div>
-
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/homeset_2.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/sofa_3.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Current Project</p>
-            </div>
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/chair_1.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
-            </div>
-            <div class="col-sm-4 bedMove">
-                <img src="assets/Images/homeset_3.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Project 2</p>
-            </div>
-        </div>
-
         <br>
-
         <img src="assets/Images/footerset_2.jpg" class="img-responsive" style="width:125%;" alt="Image">
     </div>
 </div>

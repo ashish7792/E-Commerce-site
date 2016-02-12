@@ -1,34 +1,67 @@
 'use strict';
 
 angular.module('furnitureWaleApp.landing', [])
-.controller('LandingCtrl', [function() {
-    this.categoryList = [
+.controller('landingCtrl', [function() {
+    this.categoryList = {
+        "row1":[
+            {
+                "name" : "Beds",
+                "imageUrl" : "bed_0.jpg"
+            },
+            {
+                "name" : "Revolving Tower",
+                "imageUrl" : "revolvingtower.jpg"
+            },
+            {
+                "name" : "Home Set 1",
+                "imageUrl" : "homeset_1.jpg"
+            }
+        ],
+        "row2" : [
+            {
+                "name" : "Home Set 2",
+                "imageUrl" : "homeset_4.jpg"
+            },
+            {
+                "name" : "Sofa set",
+                "imageUrl" : "sofa_2.gif"
+            },
+            {
+                "name" : "Home Set 3",
+                "imageUrl" : "homeset_2.jpg"
+            }
+        ],
+        "row3" : [
+            {
+                "name" : "Sofa set",
+                "imageUrl" : "sofa_3.jpg"
+            },
+            {
+                "name" : "Chair",
+                "imageUrl" : "chair_1.jpg"
+            },
+            {
+                "name" : "Home Set 4",
+                "imageUrl" : "homeset_3.jpg"
+            }
+        ]}
+    this.bannerList = [
         {
-            "name" : "bed",
-            "imageUrl" : "category1"
+            "name" : "banner 1",
+            "imageUrl" : "banner1.jpg"
         },
         {
-            "name" : "chairs",
-            "imageUrl" : "category/category1"
+            "name" : "banner 2",
+            "imageUrl" : "banner3.jpg"
         },
         {
-            "name" : "tv base",
-            "imageUrl" : "category/category1"
+            "name" : "banner 3",
+            "imageUrl" : "banner3.jpg"
         },
         {
-            "name" : "warddrobe",
-            "imageUrl" : "category/category1"
-        },
-        {
-            "name" : "sofa",
-            "imageUrl" : "category/category1"
-        },
-        {
-            "name" : "sofa",
-            "imageUrl" : "category/category1"
-        },
-
+            "name" : "banner 4",
+            "imageUrl" : "banner4.jpg"
+        }
     ]
-
 
 }]);
