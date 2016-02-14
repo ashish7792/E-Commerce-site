@@ -16,7 +16,6 @@ angular.module('furnitureWaleApp', ['ngRoute', 'furnitureWaleApp.landing','furni
         .when('/detailView', {
             templateUrl: 'product-details/product-details.html'
         })
-
         .otherwise({redirectTo: '/landing'});
        }
     ]);
