@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('furnitureWaleApp.dataService', [])
-.factory("dataService",["$http",dataService]);
+    .factory("dataService",["$http",dataService]);
 
 function dataService ($http){
     return {

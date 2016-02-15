@@ -33,7 +33,7 @@
         <h3> What we do</h3> </br>
         <div class="row" ng-repeat="row in vm.categoryList">
             <div class="col-sm-4 bedMove" ng-repeat="rowItem in row">
-                <a href ="#/beds"><img ng-src="assets/Images/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image"></a>
+                <a href ="#/product/{{rowItem.key}}"><img ng-src="assets/Images/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image"></a>
                 <p>{{rowItem.name}}</p>
             </div>
         </div>

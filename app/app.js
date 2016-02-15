@@ -2,7 +2,12 @@
 
 // Declare app level module which depends on views, and components
 
-angular.module('furnitureWaleApp', ['ngRoute', 'furnitureWaleApp.landing','furnitureWaleApp.dataService'])
+var app = angular.module('furnitureWaleApp', [
+    'ngRoute',
+    'furnitureWaleApp.landing',
+    'furnitureWaleApp.dataService',
+    'furnitureWaleApp.productVariation'
+    ])
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider
         .when('/landing', {
@@ -10,13 +15,19 @@ angular.module('furnitureWaleApp', ['ngRoute', 'furnitureWaleApp.landing','furni
           controller: 'landingCtrl',
           controllerAs: 'vm',
         })
-        .when('/beds', {
-            templateUrl: 'product-variation/product-variation.html'
+        .when('/product/:productName', {
+            templateUrl: 'product-variation/product-variation.html',
+            controller: 'productVariationCtrl',
+            controllerAs: 'vm',
         })
         .when('/detailView', {
             templateUrl: 'product-details/product-details.html'
         })
         .otherwise({redirectTo: '/landing'});
        }
-    ]);
+    ]).run(["$rootScope","dataService",function($rootScope,dataService){
+        dataService.getAppData(function(response) {
+            $rootScope.appData = response.data;
+        });
+    }]);
 
