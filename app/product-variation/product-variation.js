@@ -3,21 +3,21 @@
 angular.module('furnitureWaleApp.productVariation', [])
     .controller('productVariationCtrl', ['$rootScope','$routeParams',function($rootScope,$routeParams) {
         var vm  = this;
-        console.log($routeParams.productName);
-        var key = $routeParams.productName;
-        console.log($rootScope.appData.variation[key]);
-        createRowObject($rootScope.appData.variation[key])
+        vm.key = $routeParams.productName;
+        createRowObject($rootScope.appData.variation[vm.key])
         function createRowObject(productData){
             if(productData){
-                var products = []
+                vm.products = [];
+                var row = []
                 angular.forEach(productData, function(value, key) {
-                    if(key%4 === 0){
-                        "row"
-                    }
+                    row.push(value);
+                   if((key+1)%4 === 0){
+                       this.push(row);
+                       row = [];
+                   }
+                }, vm.products);
 
-                }, products);
-
-                console.log(products);
+                console.log(vm.products);
             }
 
 

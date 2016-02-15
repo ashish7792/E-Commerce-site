@@ -2,7 +2,7 @@
   "categoryList": {
     "row1": [{
       "name": "Beds",
-      "key" : "bed",
+      "key" : "beds",
       "imageUrl": "bed_0.jpg"
     }, {
       "name": "Revolving Tower",
@@ -54,56 +54,105 @@
     "imageUrl": "banner4.jpg"
   }],
   "variation": {
-    "bed": [
+    "beds": [
       {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_1.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_2.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_3.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_4.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_5.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_6.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_7.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_7.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_8.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_10.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_11.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_12.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_13.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_14.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
+        "imageUrl": "beds_15.jpg"
       }, {
         "name": "bed1",
-        "imageUrl": "bed_1.jpg"
-      }]
+        "imageUrl": "beds_16.jpg"
+      }],
+    "revolvTower":[{
+      "name": "bed1",
+      "imageUrl": "rt1.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt2.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt3.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt4.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt5.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt6.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt7.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt7.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt8.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt10.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt11.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt12.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt13.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt14.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt15.jpg"
+    }, {
+      "name": "bed1",
+      "imageUrl": "rt16.jpg"
+    }]
 
   }
 
