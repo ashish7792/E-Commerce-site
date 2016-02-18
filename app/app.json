@@ -9,41 +9,57 @@
       "key" : "revolvTower",
       "imageUrl": "revolvingtower.jpg"
     }, {
-      "name": "Home Set 1",
-      "key" : "homeset1",
-      "imageUrl": "homeset_1.jpg"
+      "name": "Sofas",
+      "key" : "sofas",
+      "imageUrl": "sofa.jpg"
     }],
     "row2": [{
-      "name": "Home Set 2",
-      "key" : "homeset2",
-      "imageUrl": "homeset_2.jpg"
-    }, {
-      "name": "Sofa set",
-      "key" : "sofa2",
-      "imageUrl": "sofa_2.gif"
-    }, {
-      "name": "Home Set 3",
-      "key" : "homeset3",
-      "imageUrl": "homeset_3.jpg"
+      "name": "Wardrobes",
+      "key" : "wardrobes",
+      "imageUrl": "wardrobes.jpg"
+    },
+      {
+        "name": "Sofa Cum Beds",
+        "key" : "sofacumbeds",
+        "imageUrl": "sofacumbed.jpg"
+      }, {
+      "name": "Cabinets",
+      "key" : "cabinets",
+      "imageUrl": "cabinets.jpg"
     }],
     "row3": [{
-      "name": "Sofa set",
-      "key" : "sofa3",
-      "imageUrl": "sofa_3.jpg"
+      "name": "Dressing Tables",
+      "key" : "dressingtables",
+      "imageUrl": "dressingtables.jpg"
     }, {
       "name": "Chair",
-      "key" : "chair",
+      "key" : "chairs",
       "imageUrl": "chair_1.jpg"
     }, {
-      "name": "Home Set 4",
-      "key" : "homeset4",
-      "imageUrl": "homeset_4.jpg"
+      "name": "Bedroom Sets",
+      "key" : "bedroomsets",
+      "imageUrl": "bedroomsets.jpg"
+    }],
+
+    "row4": [{
+      "name": "Bean Bags",
+      "key" : "beanbags",
+      "imageUrl": "beanbags.jpg"
+    },{
+      "name": "Center Tables",
+      "key" : "centertables",
+      "imageUrl": "centertable.jpg"
+    }, {
+      "name": "dinningtables",
+      "key" : "dinningtables",
+      "imageUrl": "dinningtables.jpg"
     }]
   },
-  "banners": [{
+  "banners": [
+    {
     "name": "banner 1",
     "imageUrl": "banner1.jpg"
-  }, {
+    }, {
     "name": "banner 2",
     "imageUrl": "banner2.jpg"
   }, {
@@ -104,7 +120,8 @@
         "name": "bed1",
         "imageUrl": "beds_16.jpg"
       }],
-    "revolvTower":[{
+    "revolvTower":[
+      {
       "name": "bed1",
       "imageUrl": "rt1.jpg"
     }, {
@@ -152,7 +169,502 @@
     }, {
       "name": "bed1",
       "imageUrl": "rt16.jpg"
-    }]
+    }],
+    "sofas":[
+      {
+        "name": "bed1",
+        "imageUrl": "sofa1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sofa16.jpg"
+      }],
+    "chairs":[
+      {
+        "name": "bed1",
+        "imageUrl": "ch1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ch16.jpg"
+      }],
+    "sofacumbeds":[
+      {
+        "name": "bed1",
+        "imageUrl": "sc1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "sc16.jpg"
+      }],
+    "centertables":[
+      {
+        "name": "bed1",
+        "imageUrl": "ct1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ct16.jpg"
+      }],
+    "wardrobes":[
+      {
+        "name": "bed1",
+        "imageUrl": "wd1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "wd16.jpg"
+      }],
+    "cabinets":[
+      {
+        "name": "bed1",
+        "imageUrl": "cb1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "cb16.jpg"
+      }],
+    "bedroomsets":[
+      {
+        "name": "bed1",
+        "imageUrl": "bs1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bs16.jpg"
+      }],
+    "dressingtables":[
+      {
+        "name": "bed1",
+        "imageUrl": "ds1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "ds16.jpg"
+      }],
+    "beanbags":[
+      {
+        "name": "bed1",
+        "imageUrl": "bb1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "bb13.jpg"
+      }],
+    "dinningtables":[
+      {
+        "name": "bed1",
+        "imageUrl": "dt1.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt2.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt3.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt4.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt5.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt6.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt7.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt8.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt9.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt10.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt11.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt12.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt13.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt14.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt15.jpg"
+      }, {
+        "name": "bed1",
+        "imageUrl": "dt16.jpg"
+      }]
+
+
+
+
 
   }
 
