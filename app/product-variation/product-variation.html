@@ -1,39 +1,26 @@
 <div class="container">
+    <div class="category-name name text-info">{{vm.key}}</div>
     <div class="row" ng-repeat="row in vm.products">
         <div class="col-lg-3 col-sm-4 col-xs-6" ng-repeat="rowItem in row">
-            <a href="#/detailView"><img ng-src="assets/Images/{{vm.key}}/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image"></a>
-            <p>{{rowItem.name}}</p>
+            <div class="shoppingListItemContent">
+                <a href="#/detailView">
+                    <img ng-src="assets/Images/{{vm.key}}/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+                <!-- Button trigger modal -->
+                <div class="clearfix">
+                    <div class="product-price">
+                        <span class="price fa fa-inr">{{rowItem.price}}</span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <h4 class="name text-info">{{rowItem.name}}</h4>
+                    <button id="addCart" class="btn btn-danger btn-sm"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                    <button id="moreInfo" class="btn btn-primary btn-sm hidden-md"><i class="fa fa-info-circle"></i>More Info</button>
+                </div>
+            </div>
+
         </div>
     </div>
-    <!--<div class="row">-->
-        <!--<h3>Luxury beds available here</h3>-->
-        <!--<div class="col-lg-3 col-sm-4 col-md-6 linktocart"><a title="Image 1" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/bed_0.jpg"></a>-->
-        <!--</div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_1.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_2.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_3.jpg"></a></div>-->
-    <!--</div>-->
-    <!--<div class ="row">-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_4.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_5.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_6.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_7.jpg"></a></div>-->
-    <!--</div>-->
-    <!--<div class ="row">-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_8.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_9.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_10.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_11.jpg"></a></div>-->
-    <!--</div>-->
-    <!--<div class ="row">-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_12.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_13.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_14.jpg"></a></div>-->
-        <!--<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#/detailView"><img class="thumbnail img-responsive" src="assets/Images/beds/beds_15.jpg"></a></div>-->
-    <!--</div>-->
 
 
-    <!--<hr>-->
-
-    <!--<hr>-->
 </div>

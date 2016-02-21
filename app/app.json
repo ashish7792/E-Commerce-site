@@ -72,102 +72,118 @@
   "variation": {
     "beds": [
       {
-        "name": "bed1",
-        "imageUrl": "beds_1.jpg"
+        "name": "Maharaja Bed",
+        "imageUrl": "beds_1.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_2.jpg"
+        "imageUrl": "beds_2.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_3.jpg"
+        "imageUrl": "beds_3.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_4.jpg"
+        "imageUrl": "beds_4.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_5.jpg"
+        "imageUrl": "beds_5.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_6.jpg"
+        "imageUrl": "beds_6.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_7.jpg"
+        "imageUrl": "beds_7.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_7.jpg"
+        "imageUrl": "beds_7.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_8.jpg"
+        "imageUrl": "beds_8.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_10.jpg"
+        "imageUrl": "beds_10.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_11.jpg"
+        "imageUrl": "beds_11.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_12.jpg"
+        "imageUrl": "beds_12.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_13.jpg"
+        "imageUrl": "beds_13.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_14.jpg"
+        "imageUrl": "beds_14.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_15.jpg"
+        "imageUrl": "beds_15.jpg",
+        "price": "15000"
       }, {
         "name": "bed1",
-        "imageUrl": "beds_16.jpg"
+        "imageUrl": "beds_16.jpg",
+        "price": "15000"
       }],
     "revolvTower":[
       {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt1.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt2.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt3.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt4.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt5.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt6.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt7.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt7.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt8.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt10.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt11.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt12.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt13.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt14.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt15.jpg"
     }, {
-      "name": "bed1",
+      "name": "Revolv Tower",
       "imageUrl": "rt16.jpg"
     }],
     "sofas":[

@@ -2,7 +2,8 @@
 
 angular.module('furnitureWaleApp.productVariation', [])
     .controller('productVariationCtrl', ['$rootScope','$routeParams',function($rootScope,$routeParams) {
-        var vm  = this;
+        var vm  = this,
+            numberOfColumns = 4;
         vm.key = $routeParams.productName;
         createRowObject($rootScope.appData.variation[vm.key])
         function createRowObject(productData){
@@ -11,15 +12,11 @@ angular.module('furnitureWaleApp.productVariation', [])
                 var row = []
                 angular.forEach(productData, function(value, key) {
                     row.push(value);
-                   if((key+1)%4 === 0){
+                   if((key+1)% numberOfColumns === 0){
                        this.push(row);
                        row = [];
                    }
                 }, vm.products);
-
-                console.log(vm.products);
             }
-
-
         }
     }]);
