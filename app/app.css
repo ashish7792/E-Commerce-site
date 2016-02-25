@@ -146,6 +146,7 @@ ul
   margin-bottom: 15px;
   min-height: 340px;
   transition: all .2s ease-in-out;
+    text-align: center;  
 }
 
 .shoppingListItemContent .infos{
@@ -162,6 +163,13 @@ ul
     line-height: 30px;
     display: block;
 }
+
+.align-right
+{
+    float:right;
+}
+
+
 
 @media (min-width: 1200px){
   .container {

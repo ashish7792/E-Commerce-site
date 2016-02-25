@@ -23,7 +23,7 @@
         "key" : "sofacumbeds",
         "imageUrl": "sofacumbed.jpg"
       }, {
-      "name": "Cabinets",
+      "name": "Cabinets Storage",
       "key" : "cabinets",
       "imageUrl": "cabinets.jpg"
     }],
@@ -188,152 +188,152 @@
     }],
     "sofas":[
       {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa1.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa2.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa3.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa4.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa5.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa6.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa7.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa8.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa9.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa10.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa11.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa12.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa13.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa14.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa15.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofas",
         "imageUrl": "sofa16.jpg"
       }],
     "chairs":[
       {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch1.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch2.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch3.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch4.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch5.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch6.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch7.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch8.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch9.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch10.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch11.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch12.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch13.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch14.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch15.jpg"
       }, {
-        "name": "bed1",
+        "name": "Chairs",
         "imageUrl": "ch16.jpg"
       }],
     "sofacumbeds":[
       {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc1.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc2.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc3.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc4.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc5.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc6.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc7.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc8.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc9.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc10.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc11.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc12.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc13.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc14.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc15.jpg"
       }, {
-        "name": "bed1",
+        "name": "Sofacumbed",
         "imageUrl": "sc16.jpg"
       }],
     "centertables":[
