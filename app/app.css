@@ -164,6 +164,10 @@ ul
     display: block;
 }
 
+.variation-container{
+    padding-top: 60px;
+}
+
 .align-right
 {
     float:right;
