@@ -1,0 +1,32 @@
+<div class="container">
+    <div>
+        <div class="category-name name text-info">
+            <span>{{vm.key}}</span>
+            <span><a href="#/"><button class ="btn btn-primary btn align-right ">Back</button></a></span>
+        </div>
+
+    </div>
+    <div class="row" ng-repeat="row in vm.products">
+        <div class="col-lg-3 col-sm-4 col-xs-6" ng-repeat="rowItem in row">
+            <div class="shoppingListItemContent">
+                <a href="#/detailView">
+                    <img ng-src="assets/Images/{{vm.key}}/{{rowItem.imageUrl}}" class="img-responsive" style="width:100%" alt="Image">
+                </a>
+                <!-- Button trigger modal -->
+                <div class="clearfix">
+                    <div class="product-price">
+                        <span class="price fa fa-inr">{{rowItem.price}}</span>
+                    </div>
+                </div>
+                <div class="infos">
+                    <h4 class="name text-info">{{rowItem.name}}</h4>
+                    <button id="addCart" class="btn btn-danger btn-sm"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                    <button id="moreInfo" class="btn btn-primary btn-sm hidden-md"><i class="fa fa-info-circle"></i>More Info</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

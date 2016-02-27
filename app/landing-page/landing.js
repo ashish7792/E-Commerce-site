@@ -1,8 +1,9 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('furnitureWaleApp.landing', [])
+    .controller('landingCtrl', ['$rootScope',function($rootScope) {
+        var vm  = this;
 
-
-.controller('LandingCtrl', [function() {
-
+        vm.categoryList = $rootScope.appData.categoryList;
+        vm.banners = $rootScope.appData.banners;
 }]);
