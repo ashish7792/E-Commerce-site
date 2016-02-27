@@ -115,6 +115,10 @@ ul
     content: "\f156";
 }
 
+.fa-info-circle {
+    padding-right: 5px;
+}
+
 .shoppingListItemContent a img:hover
 {
     opacity:.5;
