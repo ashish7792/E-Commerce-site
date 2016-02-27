@@ -1,4 +1,42 @@
 {
+  "labels" :{
+    "beds" : {
+      "name": "Beds Items"
+    },
+    "revolvTower" :{
+      "name": "Revolving Tower"
+    },
+    "sofas" :{
+      "name": "Sofas"
+    },
+    "chairs": {
+      "name": "Chairs "
+    },
+    "sofacumbeds": {
+      "name": "Sofa Cum bed"
+    },
+    "centertables": {
+      "name": "Center Tables"
+    },
+    "wardrobes":{
+      "name": "Wardrobes"
+    },
+    "cabinets":{
+      "name": "Cabinate"
+    },
+    "bedroomsets":{
+      "name": "Bed Room Set"
+    },
+    "dressingtables":{
+      "name": "Dressing Tables"
+    },
+    "beanbags":{
+      "name": "Bean Bags"
+    },
+    "dinningtables":{
+      "name": "Dinning Tables"
+    }
+  },
   "categoryList": {
     "row1": [{
       "name": "Beds",
