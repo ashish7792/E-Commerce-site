@@ -6,7 +6,8 @@ var app = angular.module('furnitureWaleApp', [
     'ngRoute',
     'furnitureWaleApp.landing',
     'furnitureWaleApp.dataService',
-    'furnitureWaleApp.productVariation'
+    'furnitureWaleApp.productVariation',
+    'furnitureWaleApp.productDetails'
     ])
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider
@@ -20,7 +21,7 @@ var app = angular.module('furnitureWaleApp', [
             controller: 'productVariationCtrl',
             controllerAs: 'vm',
         })
-        .when('/detailView', {
+        .when('/productDetails/:item/:itemId', {
             templateUrl: 'product-details/product-details.html'
         })
         .otherwise({redirectTo: '/landing'});

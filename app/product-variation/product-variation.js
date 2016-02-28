@@ -5,6 +5,7 @@ angular.module('furnitureWaleApp.productVariation', [])
         var vm  = this,
             numberOfColumns = 4;
         vm.key = $routeParams.productName;
+        vm.headerLabel = $rootScope.appData.labels[vm.key];
         createRowObject($rootScope.appData.variation[vm.key])
         function createRowObject(productData){
             if(productData){

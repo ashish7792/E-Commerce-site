@@ -1,85 +1,41 @@
-<div class ="container" >
+<div class ="container variation-container" ng-controller="productDetailsCtrl as vm">
     <div class ="row">
         <div class ="col-md-6">
-            <div id="vipModalWrap" class="modal-1by1 modalContent row row-with-sidebar-alt2 popup-box" data-modalname="previewGallery" style="display: block;">
-                <a href="#" class="popup-close"></a>
-                <div class="column" id="vipModalBigImage">
-                    <span class="thumb-slider-prev-arrow inactive"></span>
-                    <p class="preview-gallery-text" style="visibility: visible;"></p>
-                    <div class="big-image-container-wrap">
-                        <img src="assets\Images\beds\bed_0.jpg" class="" style="">
-                    </div>
-
-                    <span class="thumb-slider-next-arrow"></span>
-                </div>
-                <span class="thumb-slider-up-arrow">&nbsp;</span>
-                <div class="thumb-slider-wrapper">
-                    <hr>
-                    <div class="thumb-slider" >
-                        <a data-tabindex="0" href="assets\Images\beds\beds_sizing\bed_large_1.jpg"  data-img="assets\Images\beds\beds_1.jpg" data-bigimg="assets\Images\beds\beds_2.jpg" class="thumb-image active">
-                            <img src="assets\Images\beds\beds_sizing\bed_1.jpg" alt=""></a>
-                        <a data-tabindex="0" href="assets\Images\beds\beds_sizing\bed_large_1.jpg"  data-img="assets\Images\beds\beds_2.jpg" data-bigimg="assets\Images\beds\beds_2.jpg" class="thumb-image active">
-                            <img src="assets\Images\beds\beds_sizing\bed_1.jpg" alt=""> </a>
-                        <a data-tabindex="0" href="assets\Images\beds\beds_sizing\bed_large_1.jpg"  data-img="assets\Images\bed_1.jpg" data-bigimg="assets\Images\bed_1.jpg" class="thumb-image active">
-                            <img src="assets\Images\beds\beds_sizing\bed_1.jpg" alt=""> </a>
-                        <a data-tabindex="0" href="assets\Images\beds\beds_sizing\bed_large_1.jpg"  data-img="assets\Images\bed_1.jpg" data-bigimg="assets\Images\bed_1.jpg" class="thumb-image active">
-                            <img src="assets\Images\beds\beds_sizing\bed_1.jpg" alt=""></a>
-                    </div>
-                </div>
-                <span class="thumb-slider-down-arrow">&nbsp;</span>
+            <div class="big-image-container-wrap">
+                <img src="assets\Images\{{vm.item}}\{{vm.itemId}}\{{vm.itemId}}.jpg" class="" style="">
             </div>
         </div>
-
-
-
-    <div class ="col-md-4">
-
-                <table id="cart" class="table table-hover table-condensed">
-                    <thead>
-                    <tr>
-                        <th style="width:35%">Product</th>
-                        <th style="width:10%">Price</th>
-                        <th style="width:8%">Quantity</th>
-                        <th style="width:15%" class="text-center">Subtotal</th>
-                        <th style="width:10%"></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td data-th="Product">
-                            <div class="row">
-                                <div class="col-sm-2 hidden-xs"><img src="assets\Images\beds\bed_0.jpg" alt="..." class="img-responsive"/></div>
-                                <div class="col-sm-10">
-                                    <h4 class="nomargin">Product 1</h4>
-                                    <p>Comfort Bed  price .</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td data-th="Price">15000INR</td>
-                        <td data-th="Quantity">
-                            <input type="number" class="form-control text-center" value="1">
-                        </td>
-                        <td data-th="Subtotal" class="text-center">15,000</td>
-                        <td class="actions" data-th="">
-                            <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                            <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                        </td>
-                    </tr>
-                    </tbody>
-                    <tfoot>
-                    <tr class="visible-xs">
-                        <td class="text-center"><strong>Total 15,000INR</strong></td>
-                    </tr>
-                    <tr>
-                        <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-                        <td colspan="2" class="hidden-xs"></td>
-                        <td class="hidden-xs text-center"><strong>Total 15,000INR</strong></td>
-                        <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
-                    </tr>
-                    </tfoot>
-                </table>
-
-
+        <div class="col-md-6 product-details">
+            <h4>{{vm.itemDetails.name}}</h4>
+            <a href="#/product/{{vm.item}}"><button id="back" class="btn btn-primary"><i class="fa fa-chevron-left"></i> Back</button></a>
+            <p class="description">Causae complectitur in sed, petentium reprehendunt sit ut! Falli delicata mel ex, amet lorem eum cu. Sit at forensibus concludaturque. Usu iusto tractatos et? Eligendi delectus no mei. Ea habeo facilis qui, lorem mollis scripta ut duo. Noster ponderum vituperata ea usu. Vero vide vidit in eos, ei mentitum periculis his? Quo mazim decore philosophia ea, ad mei harum albucius, malorum comprehensam conclusionemque cu duo. Dicam everti has in, sea ea alia probo dicat!</p>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="price fa fa-inr"> {{vm.itemDetails.price}}</div>
+                </div>
+                <div class="col-sm-6 col-md-offset-3">
+                    <button id="cart" class="btn btn-lg btn-danger"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="section-header"><h4>Specification</h4></div>
+            <div class="row details">
+                <ul class="linear_list">
+                    <li><strong>Brand:</strong> Design Monkee</li>
+                    <li><strong>Height:</strong> {{vm.itemDetails.specification.height}}</li>
+                    <li><strong>Width:</strong> 84 inches</li>
+                    <li><strong>Depth:</strong> 33 inches</li>
+                    <li><strong>Seating Height:</strong> 17</li>
+                    <li><strong>Assembly:</strong> Carpenter Assembly</li>
+                    <li><strong>Dimensions:</strong> Sofa : H 34 x W 84 x D 33; Bed : H 34 x W 84 x D 60; Seating Height - 17</li>
+                    <li><strong>Primary Material:</strong> Ply Wood</li>
+                    <li><strong>Room Type:</strong> Living Room</li>
+                    <li><strong>Sku:</strong><span itemprop="sku">FN1289246-P-OD6282</span></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

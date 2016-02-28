@@ -40,18 +40,9 @@ footer {
   min-height:200px;
 }
 
-
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none;
-  }
-}
-
 ul
 {
-
   list-style-type: none;
-
 }
 .menu-foot
 {
@@ -111,8 +102,16 @@ ul
     margin: -8px 15px 0 0;
 }
 
+.product-image:hover{
+    opacity: .5;
+}
+
 .fa-rupee:before, .fa-inr:before {
     content: "\f156";
+}
+
+.fa-info-circle {
+    padding-right: 5px;
 }
 
 .shoppingListItemContent a img:hover
@@ -128,7 +127,7 @@ ul
 .category-name{
     background-color: #F8F8F8;
     box-shadow: 0 1px 16px 0 rgb(210, 210, 210);
-    padding: 15px 15px;
+    padding: 10px 10px;
     margin-bottom: 10px;
     text-transform: capitalize;
 }
@@ -164,16 +163,77 @@ ul
     display: block;
 }
 
+.variation-container{
+    padding-top: 60px;
+}
+
 .align-right
 {
     float:right;
 }
 
+.product-details h4{
+    margin: 20px 0;
+    font: 32px/40px 'Open Sans', sans-serif;
+}
 
+.product-details .description{
+    margin: 20px 0;
+    font: 16px/22px 'Gentium Basic', serif;
+    font-weight: 800;
+}
+
+.product-details .price{
+    margin: 0;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: #C0392B;
+    text-align: left;
+    border: 2px dashed #E0E0E0;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-control.left, .carousel-control.right{
+    background-image : -webkit-linear-gradient(left, rgba(255, 255, 255, 0.0) 0%, rgba(0, 0, 0, .0001) 100%) !important;
+}
+
+.section-header{
+    background-color: #F8F8F8;
+    box-shadow: 0 1px 16px 0 rgb(210, 210, 210);
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.details ul{
+    background-color: #F8F8F8;
+    box-shadow: 0 1px 16px 0 rgb(210, 210, 210);
+    padding: 5px 10px;
+    margin: 0 15px;
+}
+
+.details ul li{
+    padding: 5px;
+}
+
+#cart{
+    float: right;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
 
 @media (min-width: 1200px){
   .container {
     width: 0px !Important;
+  }
+  #back{
+    position: absolute;
+    top: 25px;
+    right: 30px;
   }
 }
 
@@ -181,6 +241,13 @@ ul
   .container {
     width: 970px !Important;
   }
+    #back{
+        position: absolute;
+        top: 25px;
+        right: 30px;
+    }
 }
+
+
 
 
