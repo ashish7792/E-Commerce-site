@@ -1,10 +1,10 @@
 {
   "labels" :{
     "beds" : {
-      "name": "Beds Items"
+      "name": "Beds Items Storage"
     },
     "revolvTower" :{
-      "name": "Revolving Tower"
+      "name": "Revolving Tower  "
     },
     "sofas" :{
       "name": "Sofas"
@@ -177,543 +177,722 @@
     "revolvTower":[
       {
       "name": "Revolv Tower",
-      "imageUrl": "rt1.jpg"
+      "imageUrl": "rt1.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt2.jpg"
+      "imageUrl": "rt2.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt3.jpg"
+      "imageUrl": "rt3.jpg",
+        "price": "15000"
+
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt4.jpg"
+      "imageUrl": "rt4.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt5.jpg"
+      "imageUrl": "rt5.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt6.jpg"
+      "imageUrl": "rt6.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt7.jpg"
+      "imageUrl": "rt7.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt7.jpg"
+      "imageUrl": "rt7.jpg",
+        "price": "15000"
+
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt8.jpg"
+      "imageUrl": "rt8.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt10.jpg"
+      "imageUrl": "rt10.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt11.jpg"
+      "imageUrl": "rt11.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt12.jpg"
+      "imageUrl": "rt12.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt13.jpg"
+      "imageUrl": "rt13.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt14.jpg"
+      "imageUrl": "rt14.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt15.jpg"
+      "imageUrl": "rt15.jpg",
+        "price": "15000"
     }, {
       "name": "Revolv Tower",
-      "imageUrl": "rt16.jpg"
+      "imageUrl": "rt16.jpg",
+        "price": "15000"
+
     }],
     "sofas":[
       {
         "name": "Sofas",
-        "imageUrl": "sofa1.jpg"
+        "imageUrl": "sofa1.jpg",
+        "price": "15000"
+
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa2.jpg"
+        "imageUrl": "sofa2.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa3.jpg"
+        "imageUrl": "sofa3.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa4.jpg"
+        "imageUrl": "sofa4.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa5.jpg"
+        "imageUrl": "sofa5.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa6.jpg"
+        "imageUrl": "sofa6.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa7.jpg"
+        "imageUrl": "sofa7.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa8.jpg"
+        "imageUrl": "sofa8.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa9.jpg"
+        "imageUrl": "sofa9.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa10.jpg"
+        "imageUrl": "sofa10.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa11.jpg"
+        "imageUrl": "sofa11.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa12.jpg"
+        "imageUrl": "sofa12.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa13.jpg"
+        "imageUrl": "sofa13.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa14.jpg"
+        "imageUrl": "sofa14.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa15.jpg"
+        "imageUrl": "sofa15.jpg",
+        "price": "15000"
       }, {
         "name": "Sofas",
-        "imageUrl": "sofa16.jpg"
+        "imageUrl": "sofa16.jpg",
+        "price": "15000"
       }],
     "chairs":[
       {
         "name": "Chairs",
-        "imageUrl": "ch1.jpg"
+        "imageUrl": "ch1.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch2.jpg"
+        "imageUrl": "ch2.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch3.jpg"
+        "imageUrl": "ch3.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch4.jpg"
+        "imageUrl": "ch4.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch5.jpg"
+        "imageUrl": "ch5.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch6.jpg"
+        "imageUrl": "ch6.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch7.jpg"
+        "imageUrl": "ch7.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch8.jpg"
+        "imageUrl": "ch8.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch9.jpg"
+        "imageUrl": "ch9.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch10.jpg"
+        "imageUrl": "ch10.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch11.jpg"
+        "imageUrl": "ch11.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch12.jpg"
+        "imageUrl": "ch12.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch13.jpg"
+        "imageUrl": "ch13.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch14.jpg"
+        "imageUrl": "ch14.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch15.jpg"
+        "imageUrl": "ch15.jpg",
+        "price": "15000"
       }, {
         "name": "Chairs",
-        "imageUrl": "ch16.jpg"
+        "imageUrl": "ch16.jpg",
+        "price": "15000"
       }],
     "sofacumbeds":[
       {
         "name": "Sofacumbed",
-        "imageUrl": "sc1.jpg"
+        "imageUrl": "sc1.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc2.jpg"
+        "imageUrl": "sc2.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc3.jpg"
+        "imageUrl": "sc3.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc4.jpg"
+        "imageUrl": "sc4.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc5.jpg"
+        "imageUrl": "sc5.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc6.jpg"
+        "imageUrl": "sc6.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc7.jpg"
+        "imageUrl": "sc7.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc8.jpg"
+        "imageUrl": "sc8.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc9.jpg"
+        "imageUrl": "sc9.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc10.jpg"
+        "imageUrl": "sc10.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc11.jpg"
+        "imageUrl": "sc11.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc12.jpg"
+        "imageUrl": "sc12.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc13.jpg"
+        "imageUrl": "sc13.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc14.jpg"
+        "imageUrl": "sc14.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc15.jpg"
+        "imageUrl": "sc15.jpg",
+        "price": "15000"
       }, {
         "name": "Sofacumbed",
-        "imageUrl": "sc16.jpg"
+        "imageUrl": "sc16.jpg",
+        "price": "15000"
       }],
     "centertables":[
       {
-        "name": "bed1",
-        "imageUrl": "ct1.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct2.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct3.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct4.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct5.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct6.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct7.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct8.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct9.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct10.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct11.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct12.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct13.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct14.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct15.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ct16.jpg"
+        "name": "CenterTable",
+        "imageUrl": "ct16.jpg",
+        "price": "15000"
       }],
     "wardrobes":[
       {
-        "name": "bed1",
-        "imageUrl": "wd1.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd2.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd3.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd4.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd5.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd6.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd7.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd8.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd9.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd10.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd11.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd12.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd13.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd14.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd15.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "wd16.jpg"
+        "name": "Wardrobe",
+        "imageUrl": "wd16.jpg",
+        "price": "15000"
       }],
     "cabinets":[
       {
-        "name": "bed1",
-        "imageUrl": "cb1.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb2.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb2.jpg",
+        "price": "15000"
+
       }, {
-        "name": "bed1",
-        "imageUrl": "cb3.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb4.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb5.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb6.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb7.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb8.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb9.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb10.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb11.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb12.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb13.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb14.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb15.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "cb16.jpg"
+        "name": "Cabinet",
+        "imageUrl": "cb16.jpg",
+        "price": "15000"
       }],
     "bedroomsets":[
       {
-        "name": "bed1",
-        "imageUrl": "bs1.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs2.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs3.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs4.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs5.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs6.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs7.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs8.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs9.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs10.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs11.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs12.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs13.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs14.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs15.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bs16.jpg"
+        "name": "Bedroomset",
+        "imageUrl": "bs16.jpg",
+        "price": "15000"
       }],
     "dressingtables":[
       {
-        "name": "bed1",
-        "imageUrl": "ds1.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds2.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds3.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds3.jpg",
+        "price": "15000"
+
       }, {
-        "name": "bed1",
-        "imageUrl": "ds4.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds5.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds6.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds7.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds8.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds9.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds10.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds11.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds12.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds13.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds14.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds15.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "ds16.jpg"
+        "name": "Dressingtable",
+        "imageUrl": "ds16.jpg",
+        "price": "15000"
       }],
     "beanbags":[
       {
-        "name": "bed1",
-        "imageUrl": "bb1.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb2.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb3.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb4.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb5.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb6.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb7.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb8.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb9.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb10.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb11.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb12.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "bb13.jpg"
+        "name": "Beanbag",
+        "imageUrl": "bb13.jpg",
+        "price": "15000"
       }],
     "dinningtables":[
       {
-        "name": "bed1",
-        "imageUrl": "dt1.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt1.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt2.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt2.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt3.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt3.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt4.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt4.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt5.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt5.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt6.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt6.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt7.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt7.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt8.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt8.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt9.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt9.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt10.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt10.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt11.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt11.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt12.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt12.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt13.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt13.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt14.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt14.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt15.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt15.jpg",
+        "price": "15000"
       }, {
-        "name": "bed1",
-        "imageUrl": "dt16.jpg"
+        "name": "Dinningtable",
+        "imageUrl": "dt16.jpg",
+        "price": "15000"
       }]
   }
 }
