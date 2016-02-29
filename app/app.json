@@ -49,6 +49,15 @@
     },
     "dinningtables":{
       "name": "Dinning Tables"
+    },
+	"officetables":{
+      "name": "Office Tables"
+    },
+	"studytables":{
+      "name": "Study Tables"
+    },
+	"shoeracks":{
+      "name": "Shoe Racks"
     }
   },
   "categoryList": {
@@ -105,6 +114,20 @@
       "id" : 12,
       "name": "dinningtables",
       "key" : "dinningtables"
+    }],
+	
+	"row5": [{
+      "id" : 13,
+      "name": "Office Tables",
+      "key" : "officetables"
+    },{
+      "id" : 14,
+      "name": "Study Tables",
+      "key" : "studytables"
+    }, {
+      "id" : 15,
+      "name": "Shoe Racks",
+      "key" : "shoeracks"
     }]
   },
   "banners": [
@@ -1110,6 +1133,256 @@
         "name": "Dinningtable",
         "price": 15000
       }
+    ],
+	
+	  "officetables":[
+      {
+        "id": 1,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 2,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 3,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 4,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 5,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 6,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 7,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 8,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 9,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 10,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 11,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 12,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 13,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 14,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 15,
+        "name": "Office Tables",
+        "price": 15000
+      },
+      {
+        "id": 16,
+        "name": "Office Tables",
+        "price": 15000
+      }
+    ],
+	
+	"studytables":[
+      {
+        "id": 1,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 2,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 3,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 4,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 5,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 6,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 7,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 8,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 9,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 10,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 11,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 12,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 13,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 14,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 15,
+        "name": "Study Tables",
+        "price": 15000
+      },
+      {
+        "id": 16,
+        "name": "Study Tables",
+        "price": 15000
+      }
+    ],
+	
+	"shoeracks":[
+      {
+        "id": 1,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 2,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 3,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 4,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 5,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 6,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 7,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 8,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 9,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 10,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 11,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 12,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 13,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 14,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 15,
+        "name": "Shoe Racks",
+        "price": 15000
+      },
+      {
+        "id": 16,
+        "name": "Shoe Racks",
+        "price": 15000
+      }
     ]
+	
   }
 }
