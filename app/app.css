@@ -409,3 +409,7 @@ ul
     font-size: 25px;
 }
 
+#cart
+{
+	 border-radius: 0 !important;
+}
